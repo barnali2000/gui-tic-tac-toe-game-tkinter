@@ -2,11 +2,7 @@ from tkinter import *
 from tkinter.messagebox import showinfo
 import warnings
 
-# Removes  warnings from the output
-warnings.filterwarnings('ignore')
-
 root = Tk()
-
 n = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 y = ""
 x = 0
@@ -242,3 +238,5 @@ b8.grid(row=3, column=2)
 b9 = Button(root, width=20, height=10, command=lambda: sign(9))
 b9.grid(row=3, column=3)
 root.mainloop()
+# Removes  warnings from the output
+warnings.filterwarnings('ignore')
