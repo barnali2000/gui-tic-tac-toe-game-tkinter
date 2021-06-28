@@ -243,4 +243,4 @@ b9 = Button(root, width=20, height=10, command=lambda: sign(9))
 b9.grid(row=3, column=3)
 root.mainloop()
  #Removes  warnings from the output
-warnings.filterwarnings('ignore')
+warnings.filterwarnings('Leave It!')
